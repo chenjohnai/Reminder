@@ -1,0 +1,26 @@
+﻿<Window x:Class="WpfApplication1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        AllowsTransparency="True" MouseDown="Window_MouseDown"
+        Title="MainWindow" Height="262.935" Width="529.477" Opacity="0.3" WindowStyle="None">
+    <Grid>
+        <Calendar HorizontalAlignment="Left" VerticalAlignment="Top" Height="232" Width="175"/>
+        <Button Content="Add new event" HorizontalAlignment="Left" Margin="403,202,0,0" VerticalAlignment="Top" Width="108" Click="Button_Click"/>
+        <Label Content="距&#xD;&#xA;离" HorizontalAlignment="Left" Margin="172,56,0,23" VerticalAlignment="Center"  Height="153" Width="64" FontSize="36"/>
+        <Label Content="还&#xD;&#xA;有" HorizontalAlignment="Left" Margin="389,54,0,25" VerticalAlignment="Center"  Height="153" Width="64" FontSize="36"/>
+        <Label Content="D&#xD;&#xA;A&#xD;&#xA;Y&#xD;&#xA;S" HorizontalAlignment="Left" Margin="485,39,-43,0" VerticalAlignment="Top" Width="79" Height="158" FontSize="22"/>
+        <TextBlock Name="event1" HorizontalAlignment="Left" Margin="226,35,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="21" Width="163"/>
+        <TextBlock Name="event2" HorizontalAlignment="Left" Margin="226,65,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="21" Width="163"/>
+        <TextBlock Name="event3" HorizontalAlignment="Left" Margin="226,95,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="21" Width="163"/>
+        <TextBlock Name="event4" HorizontalAlignment="Left" Margin="226,125,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="21" Width="163"/>
+        <TextBlock Name="event5" HorizontalAlignment="Left" Margin="226,155,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="21" Width="163"/>
+        <TextBlock Name="time1" HorizontalAlignment="Left" Margin="437,35,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="21" Width="51"/>
+        <TextBlock Name="time2" HorizontalAlignment="Left" Margin="437,65,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="21" Width="51"/>
+        <TextBlock Name="time3" HorizontalAlignment="Left" Margin="437,95,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="21" Width="51"/>
+        <TextBlock Name="time4" HorizontalAlignment="Left" Margin="437,125,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="21" Width="51"/>
+        <TextBlock Name="time5" HorizontalAlignment="Left" Margin="437,155,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="21" Width="51"/>
+        <Button Content="Refresh Event" HorizontalAlignment="Left" Margin="229,4,0,0" VerticalAlignment="Top" Width="282" Click="Button_Click_1"/>
+        <Button Content="Close Frame" HorizontalAlignment="Left" Margin="403,232,0,0" VerticalAlignment="Top" Width="109" Click="Button_Click_2"/>
+
+    </Grid>
+</Window>
